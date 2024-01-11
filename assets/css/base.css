@@ -1,0 +1,389 @@
+/* @override 
+	http://localhost:8888/_clients/george/base.css */
+
+/* @group reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit;}
+
+table {border-collapse: collapse; border-spacing: 0;}
+caption, th, td {text-align: left; font-weight: normal;}
+form legend {display: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+ol, ul {list-style: none;}
+/*hr {display: none; visibility: hidden;}*/
+
+:focus {outline: 0;}
+
+/* @end */
+
+/* @group comonHelper */
+
+.left{
+	float: left;
+	display: inline;
+}
+
+
+.right{
+	float: right;
+	display: inline;
+}
+.clear{
+	width: 100%;
+	height: 1px;
+	clear: both;
+}
+
+.hidden{
+	display: none;
+}
+/* @end */
+
+
+/* @group typo */
+
+@font-face {
+    font-family: 'itc_avant_garde_std_cnbold';
+    src: url('/assets/fonts/itcavantgardestd-boldcn-webfont.eot');
+    src: url('/assets/fonts/itcavantgardestd-boldcn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/itcavantgardestd-boldcn-webfont.woff') format('woff'),
+         url('/assets/fonts/itcavantgardestd-boldcn-webfont.ttf') format('truetype'),
+         url('/assets/fonts/itcavantgardestd-boldcn-webfont.svg#itc_avant_garde_std_cnbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'itc_avant_garde_std_bk_cnbold';
+    src: url('/assets/fonts/itcavantgardestd-demicn-webfont.eot');
+    src: url('/assets/fonts/itcavantgardestd-demicn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/itcavantgardestd-demicn-webfont.woff') format('woff'),
+         url('/assets/fonts/itcavantgardestd-demicn-webfont.ttf') format('truetype'),
+         url('/assets/fonts/itcavantgardestd-demicn-webfont.svg#itc_avant_garde_std_bk_cnbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'itc_avant_garde_std_bk_cnRg';
+    src: url('/assets/fonts/itcavantgardestd-bkcn-webfont.eot');
+    src: url('/assets/fonts/itcavantgardestd-bkcn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/itcavantgardestd-bkcn-webfont.woff') format('woff'),
+         url('/assets/fonts/itcavantgardestd-bkcn-webfont.ttf') format('truetype'),
+         url('/assets/fonts/itcavantgardestd-bkcn-webfont.svg#itc_avant_garde_std_bk_cnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'itc_avant_garde_std_cnbold';
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1{
+	font-size: 2em;
+	line-height: 2em;
+}
+
+h2{
+	font-size: 1.9em;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-size: 1.5em;
+	line-height: 1.4em;
+}
+
+h4{
+	font-size: 1.3em;
+	line-height: 1.3em;
+}
+
+h5{
+	font-size: 1.1em;
+	line-height: 1.1em;
+}
+h1.big_title{
+	font-size: 3em;
+	color: #fff;
+	text-shadow: 1px 1px 7px #000,  0px 0px 3px #000, 0px 0px 70px rgba(233, 191, 172, 0.4), 0px 0px 40px rgba(233, 191, 172, 0.4);
+	
+}
+strong, b{
+	font-weight: bold;
+}
+italic, em{
+	font-style: italic;
+}
+hr{
+	width: 100%;
+	height: 2px;
+	background:  #000;
+	margin-top: 10px;
+	margin-bottom:10px;
+	
+}
+/* @end */
+
+/* @group grid */
+
+.col3{
+	width: 285px;
+	margin-left: 36px;
+}
+
+.col1{
+	margin: 30px;
+}
+
+/* @end */
+document, html{
+	background: #33180a url(/assets/images/bg.png) repeat;
+	}
+
+body{
+	background: #33180a url(/assets/images/bg.png) repeat;
+	min-height: 100%;
+	color: #000;
+	line-height: 1.4em;
+	font-size: 1em;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+header#top{
+	background:  url(/assets/images/bg_menu.png) repeat-x;
+	height: 66px;
+}
+.tm{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/* @group menu */
+
+#menu{
+	margin-top: 19px;
+	width: 850px;
+}
+
+#menu ul li, #menu ul li a{
+	float: left;
+	display: inline;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+	text-shadow: 1px 2px 5px #000;
+	text-transform: uppercase;
+	font-family: 'itc_avant_garde_std_bk_cnbold';
+	margin: 0px;
+	text-align: center;
+	width: 140px;
+	padding-bottom: 24px;
+}
+#menu ul li a.menuactive{
+	background: url(/assets/images/menu_selected.png) center bottom no-repeat;
+	
+}
+
+/* @end */
+
+#site{
+	/*margin-top: 20px;*/
+	min-height: 250px;
+	background-color: #fff;
+	-moz-box-shadow: 0 0 16px 5px rgba(0,0,0,.6);
+	-webkit-box-shadow: 0 0 16px 5px rgba(0,0,0,.6);
+	box-shadow: 0 -20px 30px 0px rgba(0,0,0,.23), 0 0 16px 5px rgba(0,0,0,.6);
+	border: 2px solid #000;
+}
+
+footer{
+	color: #806D62;
+	font-size: 0.6em;
+	text-shadow: 1px 1px 4px #000;
+	margin-top: 10px;
+	text-align: center;
+}
+#subtitle{
+	margin: 40px;
+	text-align: center;
+	
+}
+#subtitle h3{
+	margin-top: 15px;
+	font-family: Helvetica Neue, Helvetica;
+	text-transform: none;
+}
+#title_image{
+	margin-left: auto;
+	margin-right: auto;
+}
+div#carousel{
+	width: 1300px;
+	margin-left: -150px;
+	margin-top: -3px;
+}
+
+div#carouse_w{
+	height: 420px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.arrow{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	background: transparent url(/assets/images/arrow_left.png) no-repeat;
+	margin-top: 170px;
+	margin-left: 0px;
+	opacity: 0.6;
+	-webkit-transition: opacity 0.3s ease-in-out;
+		-moz-transition: opacity 0.3s ease-in-out;
+		-o-transition: opacity 0.3s ease-in-out;
+		transition: opacity 0.3s ease-in-out;
+}
+.arrow.inactive{
+	-webkit-transition:none;
+		-moz-transition: none;
+		-o-transition: none;
+		transition: nonet;
+	cursor: default;
+}
+.arrow.inactive:hover{
+	opacity: 0.6;
+}
+.arrow:hover{
+	opacity: 1;
+}
+.arrow.carousel_right{
+	background: transparent url(/assets/images/arrow_right.png) no-repeat;
+	margin-left: 920px;
+}
+
+/* @group News */
+
+div.NewsSummary {
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+	margin-top: -1px;
+	text-align: center;
+}
+
+div.Newstitle{
+	margin-bottom: 1px;
+	margin-top: 10px;
+}
+
+div.NewsSummaryPostdate {
+	font-size: 0.8em;
+	text-align: center;
+	font-style: italic;
+	display: inline-block;
+	border-bottom: 1px dashed; #000;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+div.NewsSummaryContent {
+	text-align: left;
+	margin-bottom: 20px;
+	font-size: 0.8em;
+}
+
+div.home_date.left {
+	font-family: 'itc_avant_garde_std_cnbold';
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 4px;
+}
+
+div.home_title.left {
+	font-size: 0.8em;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 4px;
+}
+
+/* @end */
+
+.samples .sample a{
+	text-decoration: none;
+}
+.samples .sample{
+	background: url(/assets/images/icon/line.png) repeat-x 0px -4px;
+	width: 100%;
+	height: 30px;
+	
+}
+.samples  .sample_label{
+	background: #fff;
+	padding-right: 5px;
+}
+.samples .sample a{
+	float: right;
+	background: #fff;
+	padding-left: 4px;
+}
+.samples .sample a span.control {
+	color: #000;
+	width: 33px;
+	font-size: 12px;
+	vertical-align: 4px;
+	margin-right: 0px;
+	font-weight: lighter;
+}
+.samples .sample span{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	background: #fff;
+}
+input[type=text], textarea {
+  font-size: 1em;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-transition: border-color .2s ease-out,-webkit-box-shadow .2s ease-out;
+  -moz-transition: border-color .2s ease-out,-moz-box-shadow .2s ease-out;
+  background: url(/assets/images/layout/input.png) repeat-x white;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  color: #666;
+  padding: 8px 5px;
+  font-size: 13px;
+  width: 100%; }
+
+input[type=text]:focus, textarea:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 6px 0 #4b9de3;
+  -moz-box-shadow: 0 0 6px 0 #4b9de3;
+  box-shadow: 0 0 6px 0 #4b9de3;
+  border: 1px solid #4b9de3 !important; }
+
+#content input[type=text], #content form textarea {
+  margin: 5px 0;
+  float: right; }
+
+#content .form label {
+  vertical-align: -4px;
+  padding-top: 5px;
+  padding-bottom: 4px;
+  float: left; }

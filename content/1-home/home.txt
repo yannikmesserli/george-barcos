@@ -1,0 +1,21 @@
+Title: Home
+
+----
+
+Subtitle: WELCOME TO GEORGE'S PERSONAL WEBSITE
+
+----
+
+Text: <h3><p>Since my early childhood the dream of my life was to express everything I wanted to say through the language of MUSIC. I chose this language because, among other reasons, it enriches my life in every way. My multi-cultural background and the privilege of having studied with some wonderful teachers in United States and Switzerland on top of my personal taste has permitted me to create a musical world that has given a strong sense to my life. I chose to become a composer and a guitarist without even thinking about it. It seemed to me a natural path to take. After a number of years of experience as a student and player I started teaching guitar and music theory and kept-until the present- composing music in different styles with my personal language.</p></h3></div>
+<div class="clear"></div>
+<div id="content"><div class="left col3"><h1>Guitarist</h1>
+<p>If you need a duo, a Guitar Quartet or a Jazz band to animate your evening, please</p>
+<p style="text-align: center;"><a href="/guitarist">go to guitarist's page</a></p>
+<p> </p></div>
+<div class="left col3"><h1>Composer</h1>
+<p>If you need a special composition, or see George's page, please</p>
+<p style="text-align: center;"><a href="/composer">go to composer's page </a></p></div>
+<div class="left col3"><h1>Teacher</h1>
+<div>  If your'e interested in private guitar lessons</div>
+<p style="text-align: center;"><a href="/teacher">go to teacher's page</a></p></div>
+<div class="clear" style="height: 50px;"></div></div>

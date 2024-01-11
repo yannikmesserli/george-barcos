@@ -1,0 +1,60 @@
+Title: Teacher
+
+----
+
+Subtitle: 
+
+----
+
+Subtitle 2: <p><strong>George</strong> has been giving guitar courses for the <strong>past 35 years</strong> in a variety of styles. He always aimed to inspire and encourage beginners or professionals to be creative and to find their own style. Taking a <strong>private course</strong> with George is also a moment of sharing knowledge in a multi-cultural atmosphere.</p>
+----
+
+Column 1: <h1>Description</h1>
+<p>George gives courses of jazz, latino and classical guitar. He is constantly focused on the needs of the students.&nbsp;Program is adapted to the student's age and capacity.&nbsp;Courses are given in english, french or spanish.</p>
+<p>&nbsp;</p>
+<hr>
+<p><strong>Jazz:&nbsp;</strong>Work on standard jazz repertory (...); improvisation and comping. May use acoustic or electric guitar.</p>
+<hr>
+<p><strong>Latino</strong>: Work on the repertory of afrocuban and brazilian songs and their rhythmic components.</p>
+<hr>
+<p><strong>Classical</strong>: Work on the classical repertory and its corresponding technique.</p>
+<hr>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><em>Special courses can be discussed directly with <a href="mailto:georgebarcos@yahoo.com">George</a>.</em></p>
+<p>&nbsp;</p>
+<p><em><br></em></p>
+<p><strong>Tel</strong><em>:&nbsp;</em>022 789 0715</p>
+
+
+----
+
+Column 2: <h1>Information</h1>
+<p>No audition is required and anybody is&nbsp;eligible for a private course.&nbsp;Following discussion, the student and George agree on the convenient&nbsp;schedule and the material to be studied.</p>
+<p>&nbsp;</p>
+<hr>
+<p><strong>Students</strong> Levels:&nbsp;beginner to advanced</p>
+<hr>
+<p><strong>Price</strong>:&nbsp;varies according to amount of monthly lessons. To discuss with teacher.</p>
+<hr>
+<p><strong>Schedule:&nbsp;</strong>&nbsp;Courses are given on Wednesdays and Thursdays from 10:00 to 20:00 and may start at any time of the year.</p>
+<hr>
+<p>&nbsp;</p>
+<h1>Contact</h1>
+<p>Don't hesitate to contact George for any inquiries.</p>
+<p>&nbsp;</p>
+<p><strong>Mail</strong>:&nbsp;<a href="mailto:georgebarcos@yahoo.com">georgebarcos@yahoo.com</a></p>
+
+----
+
+Column 3: <h1>Location</h1>
+<div>&nbsp;All the courses are given in&nbsp;George's private studio.</div>
+<p>&nbsp;</p>
+<p style="text-align: center;">22 rue Le Corbusier</p>
+<p style="text-align: center;">(région Malagnou-Florissant)</p>
+<p style="text-align: center;">1208 Genève</p>
+<p style="text-align: center;">&nbsp;</p>
+<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=+&amp;q=22+rue+Le+Corbusier+(r%C3%A9gion+Malagnou-Florissant)++++++++++++++1208+Gen%C3%A8ve&amp;ie=UTF8&amp;hq=&amp;hnear=Rue+Le-Corbusier+22,+Champel,+1208+Gen%C3%A8ve,+Switzerland&amp;t=m&amp;ll=46.192844,6.166935&amp;spn=0.010398,0.012875&amp;z=15&amp;output=embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="300" height="350"></iframe><br><small><a style="color: #0000ff; text-align: left;" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=+&amp;q=22+rue+Le+Corbusier+(r%C3%A9gion+Malagnou-Florissant)++++++++++++++1208+Gen%C3%A8ve&amp;ie=UTF8&amp;hq=&amp;hnear=Rue+Le-Corbusier+22,+Champel,+1208+Gen%C3%A8ve,+Switzerland&amp;t=m&amp;ll=46.192844,6.166935&amp;spn=0.010398,0.012875&amp;z=15">View Larger Map</a></small>
+<p>&nbsp;&nbsp;</p>
+<p><strong><br></strong></p>
+<p><strong>Mobile</strong>:&nbsp;078 922 0812</p>

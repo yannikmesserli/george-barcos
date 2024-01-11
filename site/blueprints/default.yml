@@ -1,0 +1,22 @@
+title: Home
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  subtitle:
+    label: Subtitle
+    type:  text
+  subtitle_2:
+    label: Subtitle 2
+    type:  text
+  column_1:
+    label: Column 1
+    type:  textarea
+  column_2:
+    label: Column 2
+    type:  textarea
+  column_3:
+    label: Column 3
+    type:  textarea

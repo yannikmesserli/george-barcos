@@ -1,0 +1,65 @@
+Title: Contact
+
+----
+
+Subtitle: 
+
+----
+
+Subtitle 2: You can drop me a mail any time by simply filling out the form below:
+
+----
+
+Column 1: <h1>Contact</h1>
+<p style="margin-bottom: 10px;">&nbsp;</p>
+<p><strong>Mobile</strong>:&nbsp;078 922 0812</p>
+<p><strong>Tel</strong>:&nbsp;022 789 0715</p>
+<p><strong>Mail</strong>:&nbsp;georgebarcos@yahoo.com</p>
+<p style="margin-bottom: 10px;">&nbsp;</p>
+<p><strong>Address</strong></p>
+<p>22 rue Le Corbusier</p>
+<p>(région Malagnou-Florissant)</p>
+<p>1208 Genève</p>
+<h1>&nbsp;</h1>
+<p>&nbsp;</p>
+
+----
+
+Column 2: <h1>Form</h1><form id="cntnt01moduleform_1" method="post" action="/" class="cms_form" enctype="multipart/form-data">
+<div class="hidden">
+<input type="hidden" name="mact" value="FormBuilder,cntnt01,default,0">
+<input type="hidden" name="cntnt01returnid" value="21">
+<input type="hidden" name="cntnt01fbrp_callcount" value="1">
+</div>
+
+	<div><input type="hidden" id="cntnt01form_id" name="cntnt01form_id" value="2">
+<input type="hidden" id="cntnt01fbrp_continue" name="cntnt01fbrp_continue" value="2">
+<input type="hidden" id="cntnt01fbrp_done" name="cntnt01fbrp_done" value="1">
+</div>
+	<div class="contactform">
+				        	<fieldset id="fbrp__13"><legend>Contact</legend>     				        	<div><label for="fbrp__14">Your Name</label><input type="text" name="cntnt01fbrp__14" value="" size="25" maxlength="128" id="fbrp__14">
+</div>     				        	<div><label for="fbrp__15_1">Your Email Address</label><input type="text" name="cntnt01fbrp__15[]" id="fbrp__15_1" value="" size="25" maxlength="128"></div>     				        	<div><label for="fbrp__17">Subject</label><input type="text" name="cntnt01fbrp__17" value="" size="25" maxlength="128" id="fbrp__17">
+</div>     				        	<div class="required"><label for="message">Message*</label><textarea name="cntnt01fbrp__18" cols="60" rows="5" class="cms_textarea" id="message">Enter Your Message Here</textarea><script type="text/javascript">
+var f = document.getElementById('message');
+if (f)
+{
+f.onfocus=function(){
+if (this.value==this.defaultValue) {this.value='';}
+}
+f.onblur=function(){
+if (this.value=='') {this.value=this.defaultValue;}
+}
+}
+;</script>
+</div>     							        	</fieldset>     				<div class="submit"><input class="cms_submit fbsubmit" name="cntnt01fbrp_submit" id="cntnt01fbrp_submit" value="Submit Form" type="submit"></div>
+	</div>
+	</form>
+
+<p></p>
+
+----
+
+Column 3: <h1>Map</h1>
+<p style="text-align: center;">&nbsp;</p>
+<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=+&amp;q=22+rue+Le+Corbusier+(r%C3%A9gion+Malagnou-Florissant)++++++++++++++1208+Gen%C3%A8ve&amp;ie=UTF8&amp;hq=&amp;hnear=Rue+Le-Corbusier+22,+Champel,+1208+Gen%C3%A8ve,+Switzerland&amp;t=m&amp;ll=46.192844,6.166935&amp;spn=0.010398,0.012875&amp;z=15&amp;output=embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" width="300" height="350"></iframe><br><small><a style="color: #0000ff; text-align: left;" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=+&amp;q=22+rue+Le+Corbusier+(r%C3%A9gion+Malagnou-Florissant)++++++++++++++1208+Gen%C3%A8ve&amp;ie=UTF8&amp;hq=&amp;hnear=Rue+Le-Corbusier+22,+Champel,+1208+Gen%C3%A8ve,+Switzerland&amp;t=m&amp;ll=46.192844,6.166935&amp;spn=0.010398,0.012875&amp;z=15">View Larger Map</a></small>
+<p>&nbsp;</p>
