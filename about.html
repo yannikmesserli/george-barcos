@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)https://george-barcos.ch/about -->
+<html
+  lang="en"
+  class="js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase no-indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+>
+  <!--
+ *
+ *                                          
+ *       ,--.   ,--.,--.   ,--.,------. ,------. 
+ *       |   `.'   | \  `.'  / |  .--. '|  .---' 
+ *       |  |'.'|  |  '.    /  |  '--'.'|  `--,  
+ *       |  |   |  |    |  |   |  |\  \ |  `---. 
+ *       `--'   `--'    `--'   `--' '--'`------' 
+ *                                        
+ *       h a n d c r a f t e d  -  w e b s i t e
+ *       ---------------------------------------
+ *       M Y R E : Messerli Yannik  Réalisations
+ *
+ * 
+ * Date: 07/25/06 21:22:31
+ * Author: Yannik Messerli myre.ch *
+ --><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>George Barcos | About</title>
+
+    <!--<base href="https://george-barcos.ch">-->
+    <base href="." />
+
+    <meta name="viewport" content="width=1000" />
+    <meta
+      name="Welcome to George Barcos&#39;s personal website. &lt;br/&gt; George is living in the heart of Europe where he has taken every opportunity to diversify in various musical styles, from chamber music to jazz, from theatre music to music for film and television. He predominantly writes music in his own particular style, which reflects an emotional panorama of the three cultures united within him: South America, America and Europe."
+    />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta name="Author" content="Yannik Messerli myre.ch" />
+    <meta
+      name="keywords"
+      content="George Barcos, Tango, Composition, Modern jazz"
+    />
+    <meta
+      name="Copyright"
+      content=" &lt;p&gt;© Copyright 2004-2024 - George Barcos - All Rights Reserved. Unauthorized reproduction of materials on this website is prohibited.&lt;/p&gt;"
+    />
+    <meta name="robots" content="index, follow" />
+
+    <!-- SCRIPTS -->
+    <!--[if lt IE 9]>
+      <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+    <script src="./assets/scripts/modernizr.js"></script>
+    <script src="./assets/scripts/mootools.js"></script>
+    <script src="./assets/scripts/Tourniquet.js"></script>
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./assets/css/reset-min.css" />
+    <link rel="stylesheet" href="./assets/css/base.css" />
+
+    <style type="text/css">
+      .clearly-login-pop {
+        user-select: none;
+        position: fixed;
+        right: 32px;
+        top: 32px;
+        width: 350px;
+        border-radius: 16px;
+        background-color: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        z-index: 2147483648;
+        padding: 20px;
+      }
+      .clearly-login-pop-head {
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .clearly-login-pop-head i {
+        cursor: pointer;
+      }
+      .clearly-login-pop-title {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .clearly-login-pop .tcell {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 50px;
+        border-top: 1px solid rgba(0, 0, 0, 0.06);
+      }
+      .clearly-login-pop .tcell:first-child {
+        border-top: 0;
+      }
+      .clearly-login-pop .tcell .form-label {
+        box-sizing: border-box;
+        display: flex;
+        align-items: flex-start;
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.8);
+      }
+      .clearly-login-pop .tcell .form-label i {
+        margin-right: 10px;
+      }
+      .clearly-login-pop .tcell .form-label .value {
+        margin-left: 8px;
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+      .clearly-login-pop .tcell .form-group {
+        margin-bottom: 0;
+      }
+      .clearly-login-pop .btn-group {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 12px;
+      }
+      .clearly-login-pop .btn-submit {
+        height: 52px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        text-decoration: none;
+        background-color: #333;
+        color: #fff;
+        border: 1px solid #333;
+        font-size: 13px;
+        height: 34px;
+        padding: 0 10px;
+      }
+      .clearly-login-pop input.account-input {
+        border-radius: 6px;
+        font-size: 13px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        height: 34px;
+        padding: 0 12px;
+        appearance: none;
+        background: none;
+        outline: none;
+        color: rgba(0, 0, 0, 0.9);
+        min-width: 200px;
+      }
+    </style>
+    <style type="text/css">
+      #clearly-edit-pop {
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 8px;
+        padding: 5px 12px;
+        color: #fff;
+        font-size: 14px;
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        user-select: none;
+        position: absolute;
+        z-index: 999999999;
+      }
+      #clearly-edit-pop .clearly-edit-pop-remove {
+        cursor: pointer;
+      }
+      #clearly-edit-pop:after {
+        content: "";
+        display: block;
+        border-style: solid;
+        border-width: 5px;
+        border-color: transparent;
+        border-top-color: rgba(0, 0, 0, 0.9);
+        position: absolute;
+        margin-left: -5px;
+        bottom: -10px;
+        left: 50%;
+      }
+    </style>
+    <style type="text/css">
+      :root {
+        --color-yellow: #ffd76f;
+        --color-green: #34ffb6;
+        --color-black: rgba(0, 0, 0, 0.9);
+        --color-border: rgba(255, 255, 255, 0.1);
+        --color-icon: rgba(255, 255, 255, 0.6);
+        --color-icon-hover: rgba(255, 255, 255, 0.8);
+        --color-text-gray: rgba(255, 255, 255, 0.6);
+        --color-placeholder: rgba(255, 255, 255, 0.6);
+        --color-light-hover: rgba(255, 255, 255, 0.1);
+      }
+      .clearly-mark {
+        background-color: var(--color-yellow);
+        color: black;
+        cursor: pointer;
+      }
+      .clearly-image-collected {
+        border-left: 8px solid var(--color-yellow);
+      }
+      #clearly-image-popup-icon,
+      #clearly-popup-icon {
+        background: #1c1a1a;
+        position: absolute;
+        border-radius: 8px;
+        border: 1px solid #c1c1c1;
+        cursor: pointer;
+        z-index: 2147483648;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        transition: all 0.2s linear;
+      }
+      #clearly-image-popup-icon:hover,
+      #clearly-popup-icon:hover {
+        background-color: #000;
+      }
+      #clearly-image-popup-icon .clearly-popup-icon-img,
+      #clearly-popup-icon .clearly-popup-icon-img {
+        width: 32px;
+        height: 32px;
+        background-size: 24px 24px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-right: 1px solid rgba(255, 255, 255, 0.2);
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGrSURBVHgB7ZjRUcMwDIYVjgGyQbsBGSFswAbpJskGsEHYADbIMQHZIOkEhQmEfPZxIaRK5To2x+m700MTS9Xv2JZtAEVRFEVR/imImBuDDckgEC7RiqwgK8n2syY92Uj2SvaWZdno/A6Tth/0/Ali4nq5JjuhjJpsP3s2QExcAgOGQyzgFjyhPzNDpSPjxnjv7Oja3YEdYpvOi1Uu6PmOrGR8m1BfwFfAM5P8y4UxmiQCTM8yyQ+mhwWxuhQCOkZAK4xVRhWAv5e9OYUwpIl5ukaAdBXiEjRFqAc592BXpdHEACFSASXzzid58BT9zQ3I2DHvRkiAVEDaArSAVADHERIQUsAOEiAVIF4ltkYq4JN5J64BIZAK4Ja8PXjgimMl2YJ4YyrtSiUuQQj5HKaVGDc+gq7thTphrBx/bstF/l7Meuyqr0BtH2e+FcRg5SuYzVmx4p8vJB/vPIx24q0d4lu02+V84mN+12d84/T+RESB8puIczSQAgxzK9FAStCO58ZDyIAey+6mUEIPaA/870zSbcjEg10tLoF2Ahszp7U/t49SFEVRlOR8AQxUBgYyQX2vAAAAAElFTkSuQmCC");
+      }
+      #clearly-image-popup-icon .clearly-popup-text,
+      #clearly-popup-icon .clearly-popup-text {
+        padding: 0 10px;
+        color: rgba(255, 255, 255, 0.8);
+      }
+      #clearly-video-icon {
+        cursor: pointer;
+        background: #2c2828;
+        display: inline-block;
+        align-items: center;
+        margin: 0 8px;
+        border-radius: 18px;
+        height: 36px;
+        position: relative;
+        box-sizing: border-box;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        transition: all 0.2s linear;
+      }
+      #clearly-video-icon:hover {
+        background-color: #000;
+      }
+      #clearly-video-icon .clearly-popup-icon-img {
+        position: absolute;
+        left: 4px;
+        top: 50%;
+        margin-top: -12px;
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGrSURBVHgB7ZjRUcMwDIYVjgGyQbsBGSFswAbpJskGsEHYADbIMQHZIOkEhQmEfPZxIaRK5To2x+m700MTS9Xv2JZtAEVRFEVR/imImBuDDckgEC7RiqwgK8n2syY92Uj2SvaWZdno/A6Tth/0/Ali4nq5JjuhjJpsP3s2QExcAgOGQyzgFjyhPzNDpSPjxnjv7Oja3YEdYpvOi1Uu6PmOrGR8m1BfwFfAM5P8y4UxmiQCTM8yyQ+mhwWxuhQCOkZAK4xVRhWAv5e9OYUwpIl5ukaAdBXiEjRFqAc592BXpdHEACFSASXzzid58BT9zQ3I2DHvRkiAVEDaArSAVADHERIQUsAOEiAVIF4ltkYq4JN5J64BIZAK4Ja8PXjgimMl2YJ4YyrtSiUuQQj5HKaVGDc+gq7thTphrBx/bstF/l7Meuyqr0BtH2e+FcRg5SuYzVmx4p8vJB/vPIx24q0d4lu02+V84mN+12d84/T+RESB8puIczSQAgxzK9FAStCO58ZDyIAey+6mUEIPaA/870zSbcjEg10tLoF2Ahszp7U/t49SFEVRlOR8AQxUBgYyQX2vAAAAAElFTkSuQmCC");
+      }
+      #clearly-video-icon .clearly-popup-text {
+        padding-left: 32px;
+        padding-right: 12px;
+        font-family: sans-serif;
+        font-size: 14px;
+        line-height: 32px;
+        height: 32px;
+        color: #ffffff;
+      }
+    </style>
+    <style type="text/css">
+      .tag-pane {
+        position: absolute;
+        width: 160px;
+        border-radius: 16px;
+        top: 40px;
+        right: 0;
+        padding-bottom: 8px;
+        overflow: hidden;
+        border: 1px solid var(--color-border);
+        background-color: var(--color-bg);
+        z-index: 99999999;
+      }
+      .tag-pane .item {
+        height: 30px;
+        line-height: 30px;
+        padding: 0 16px;
+        display: flex;
+        align-items: center;
+        color: var(--color-text);
+        white-space: nowrap;
+      }
+      .tag-pane .item:hover {
+        cursor: pointer;
+        background-color: var(--color-hover);
+      }
+      .tag-pane .tag-search-input-container {
+        padding: 16px;
+      }
+      .tag-pane .tag-search-input {
+        display: block;
+        height: 35px;
+        line-height: 35px;
+        border: 1px solid var(--color-yellow);
+        padding-left: 12px;
+        border-radius: 8px;
+        box-sizing: border-box;
+        width: 100%;
+        color: var(--color-text);
+        background-color: transparent;
+        outline: none;
+      }
+      .tag-pane .tag-search-input::placeholder {
+        color: var(--color-placeholder);
+      }
+      .tag-pane .icon-check,
+      .tag-pane .icon-add {
+        font-size: 18px;
+        margin-right: 6px;
+        color: var(--color-icon);
+      }
+      .tag-pane .icon-checked {
+        color: var(--color-yellow);
+      }
+    </style>
+    <style type="text/css">
+      .collect-pop {
+        position: fixed;
+        border: 1px solid var(--color-gray-border);
+        right: 32px;
+        top: 32px;
+        border-radius: 16px;
+        background-color: var(--color-black);
+        z-index: 2147483648;
+      }
+      .collect-pop .main {
+        height: 60px;
+        line-height: 60px;
+        display: flex;
+        align-items: center;
+        color: #fff;
+      }
+      .collect-pop .save {
+        padding: 0 20px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+      }
+      .collect-pop .save .icon-success {
+        color: var(--color-green);
+        font-size: 24px;
+        margin-right: 8px;
+      }
+      .collect-pop .icon-tag {
+        cursor: pointer;
+        font-size: 20px;
+        margin-left: 24px;
+        margin-right: 20px;
+        color: var(--color-icon);
+      }
+      .collect-pop .icon-tag:hover {
+        color: var(--color-icon-hover);
+      }
+      .collect-pop .icon-more {
+        font-size: 20px;
+        cursor: pointer;
+        color: var(--color-icon);
+      }
+      .collect-pop .icon-more:hover {
+        color: var(--color-icon-hover);
+      }
+      .collect-pop .read {
+        border-left: 1px solid var(--color-gray-border);
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .collect-pop .read:hover {
+        background: var(--color-hover);
+        cursor: pointer;
+      }
+      .collect-pop .icon-read {
+        font-size: 20px;
+        color: var(--color-yellow);
+      }
+      .collect-pop .tag-pane {
+        position: absolute;
+        width: 160px;
+        border-radius: 16px;
+        top: 75px;
+        right: 0;
+        padding-bottom: 8px;
+        overflow: hidden;
+        background-color: var(--color-black);
+      }
+      .collect-pop .tag-pane .item {
+        height: 30px;
+        line-height: 30px;
+        padding: 0 16px;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        white-space: nowrap;
+      }
+      .collect-pop .tag-pane .tag-search-input-container {
+        padding: 16px;
+      }
+      .collect-pop .tag-pane .tag-search-input {
+        display: block;
+        height: 35px;
+        line-height: 35px;
+        border: 1px solid var(--color-yellow);
+        padding-left: 12px;
+        border-radius: 8px;
+        box-sizing: border-box;
+        width: 100%;
+        color: #fff;
+        background-color: transparent;
+      }
+      .collect-pop .tag-pane .tag-search-input::placeholder {
+        color: var(--color-placeholder);
+      }
+      .collect-pop .tag-pane .icon-check,
+      .collect-pop .tag-pane .icon-add {
+        font-size: 18px;
+        margin-right: 6px;
+        color: var(--color-icon);
+      }
+      .collect-pop .tag-pane .icon-checked {
+        color: var(--color-yellow);
+      }
+      .collect-pop .tag-pane .item:hover {
+        cursor: pointer;
+        background-color: var(--color-hover);
+      }
+      .collect-pop .more-pane {
+        position: absolute;
+        width: 160px;
+        border-radius: 16px;
+        padding: 8px 0;
+        top: 75px;
+        right: 0;
+        background-color: var(--color-black);
+      }
+      .collect-pop .more-pane .item {
+        height: 30px;
+        line-height: 30px;
+        padding-left: 16px;
+        font-size: 13px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        color: var(--color-text-gray);
+      }
+      .collect-pop .more-pane .item:hover {
+        background: var(--color-hover);
+      }
+      .collect-pop .more-pane .item i {
+        color: var(--color-icon);
+        font-size: 16px;
+        margin-right: 6px;
+      }
+    </style>
+    <style type="text/css">
+      .toast {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        z-index: 2147483647;
+        animation: fadeindown linear 0.2s;
+      }
+
+      .toast.hide {
+        animation: fadeoutup linear 0.2s;
+      }
+
+      @keyframes fadeindown {
+        from {
+          opacity: 0;
+          transform: translateY(-60px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeoutup {
+        from {
+          opacity: 1;
+          transform: translateY(0);
+        }
+
+        to {
+          opacity: 0;
+          transform: translateY(-60px);
+        }
+      }
+
+      .toast-message {
+        margin-top: 24px;
+        display: inline-flex;
+        align-items: center;
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(2px);
+        padding: 12px 14px;
+        color: #ffffff;
+        border-radius: 8px;
+        position: relative;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav role="navigation"></nav>
+
+    <div class="clear"></div>
+
+    <header id="top">
+      <div class="clear"></div>
+      <div id="menu" class="tm">
+        <ul>
+          <li>
+            <a href="./"><span>Home</span></a>
+          </li>
+          <li>
+            <a class="menuactive" href="./about.html"><span>About</span></a>
+          </li>
+          <li>
+            <a href="./guitarist.html"><span>Guitarist</span></a>
+          </li>
+          <li>
+            <a href="./composer.html"><span>Composer</span></a>
+          </li>
+          <li>
+            <a href="./teacher.html"><span>Teacher</span></a>
+          </li>
+          <li>
+            <a href="./contact.html"><span>Contact</span></a>
+          </li>
+        </ul>
+
+        <div class="clear"></div>
+      </div>
+
+      <div class="clear"></div>
+    </header>
+    <script
+      type="text/javascript"
+      language="Javascript"
+      src="./assets/scripts/audio.js"
+    ></script>
+
+    <div id="title" class="tm">
+      <h1 class="big_title">About</h1>
+    </div>
+
+    <div id="site" class="tm">
+      <div class="clear"></div>
+      <div id="subtitle">
+        <h2>WHO IS GEORGE BARCOS?</h2>
+        <div class="clear"></div>
+
+        <h3>
+          George is living in the heart of Europe where he has taken every
+          opportunity to <strong>diversify</strong> in various musical styles,
+          from chamber music to jazz, from theatre music to music for film and
+          television. He predominantly writes music in his
+          <strong>own particular style</strong>, which reflects an emotional
+          panorama of the three cultures united within him: South America,
+          U.S.A. and Europe.<br />
+        </h3>
+      </div>
+      <div class="clear"></div>
+      <div id="content">
+        <div class="left col3">
+          <h2>Biography</h2>
+          <p>
+            Born in Bogota, Colombia on September 21th 1946. Early childhood
+            spent in Montreal, Canada . As a child loved listening to the
+            popular singers of that period (Perry Como, Dean Martin,etc) and the
+            begining of rock singers ( Elvis,etc) and the early pop- rock groups
+            ( The Ventures). Brought up in a trilingual family &nbsp;and a mixed
+            cultural &nbsp;environment contributed enormously to enrich his
+            musical world : return to his birth place (Colombia), where he
+            remained for a period of 9 years ( 1955 to 1963) and was exposed to
+            the enormous wealth of latin american popular and folkloric music of
+            the time.
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p><img src="./assets/images/retro1.png" alt="" />&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>
+            It is during the early sixties that he begins to learn the guitar
+            and percussion instruments and in 1962 forms part of a "murga"( a
+            group of amateur musicians playing the most popular styles of music:
+            cumbia, guaracha, vallenato, bolero.
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>
+            <strong>1975-76</strong> Composition and orchestration studies at
+            the Basel Music Academy (with Gerald Bennet). Works as guitarist in
+            several local groups.
+          </p>
+          <p>
+            <strong>1976-78</strong> Forms the George Barcos Quartet along with
+            multi-saxophonist and flutist Jean-Luc Barbier. Writes and arranges
+            most of the repertoire. Numerous concerts in Switzerland and France.
+            Recordings at the Swiss radio in Geneva and Lausanne.
+          </p>
+          <p>
+            <strong>1977</strong>- Is engaged as jazz guitar teacher at the
+            Conservatoire Populaire de Musique in Geneva. Leads and arranges the
+            school jazz band from 1978 to 1988, during which he organizes a
+            great number of concerts in schools and local events.
+          </p>
+          <p>
+            <strong>1979-1981</strong>- Composes and records the music for
+            several plays at the Grütli Theatre in Geneva:<br />
+            Les Mystères de Paris (Eugene Sue)<br />
+            OK (Isaac Chocron)<br />
+            La Revolucion (Isaac Chocron)
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;<img src="./assets/images/retro4.png" alt="" />&nbsp;</p>
+        </div>
+        <div class="left col3">
+          <p>
+            Christmas 1963: George is sent to Los Angeles to join an important
+            part of his family- his elder brothers and sister already married
+            and installed in the "City of the Angels" . The begining of "serious
+            studies"in music follows during the next 7 years: music theory and
+            composition (with Rowan Taylor, Lionel Greenberg and Paul Glass) ,
+            classical and jazz guitar (with Howard Heitmeyer, Pat McCauley and
+            George Van Eps). During these years spent in Los Angeles, George
+            enjoys the privilige of listening and studying with some of the most
+            talented musicians of the west coast; musicians who, for opportunity
+            reasons (studio sessions, teaching and concerts) were installed in
+            the L.A. area.&nbsp;
+          </p>
+          <p>&nbsp;</p>
+          <p>
+            <strong><br /></strong>
+          </p>
+          <p>&nbsp;<img src="./assets/images/retro3.png" alt="" /></p>
+          <p>&nbsp;</p>
+          <h2>
+            <strong><br /></strong>
+          </h2>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <h2><strong>Important dates</strong></h2>
+          <p>
+            <strong><br /></strong>
+          </p>
+          <p>
+            <strong>1981- 82</strong>- Composes and arranges the music for
+            several jingles for Swiss television:
+          </p>
+          <p>
+            Mazda<br />
+            Henniez spot<br />
+            Hollydent Chewing Gum
+          </p>
+          <p>
+            <strong>1984-85</strong> Composes and arranges the music for 2
+            popular TV talk and game shows:<br />
+            Midi Public<br />
+            Bonsoir<br /><strong>1985-95</strong> Creates with Daisy Auvray the
+            group Guacango, which performs through these years under different
+            structures:<br />
+            Guacango in trio (with bass)<br />
+            Guacango in quartet ( with bass and Percussion)<br />
+            Guacango in sextet ( with keyboards,bass and percussion)<br />
+            Guacango in nonet (with 3 horns and complete rhythmic section)<br />
+            Numerous concerts in jazz clubs in Geneva , Lausanne, Basel and
+            following festivals: <br />
+            Montreux (off), Nyon, Ville de Genève,Macon, Annecy and Annemasse.
+          </p>
+        </div>
+        <div class="left col3">
+          <p>
+            After these years in the west coast he returns to Colombia- Bogota
+            and Cali and receives coaching from prominent composers (such as B.
+            Atehortua, and R. Pineda Duque in Bogota) and A. Ramirez Sierra in
+            Cali) and finally chooses to live and work in Europe. Settled in
+            Geneva since 1974 he remains until the present time.
+          </p>
+          <div>&nbsp;</div>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;<img src="./assets/images/retro2.png" alt="" /></p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>
+            <strong>1995</strong>- Continues writing and arranging on a regular
+            basis for various instrumental combinations of chamber and choral
+            music (see www.musinfo.ch).
+          </p>
+          <p>
+            In <strong>1999</strong> composes and arranges along with Daisy
+            Auvray Barcos the album "Pictures of Love" followed by a 2nd CD
+            "Souffle deVie" (Soplo de Vida) in 2001.
+          </p>
+          <p>
+            Continues teaching and arranging. Since 2000 regular concerts in duo
+            with Daisy. The two develop a unique repertoire of original latin
+            jazz songs and work as a team of composer-lyricist. Lyrics in
+            Spanish,English and French. *see www.tangobarcos.ch
+          </p>
+          <p>
+            In <strong>2009</strong> he inaugurates a Jazz Guitar Quartet (all
+            acoustic) with a repertoire of lovely jazz and latin songs which he
+            arranges specifically for 4 classical guitars.
+          </p>
+          <p>
+            At the present moment prepares a repertoire with Daisy for a new CD,
+            works with the guitar quartet and a jazz trio (trombone,
+            <br />guitar and bass).
+          </p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+        </div>
+        <div class="clear" style="height: 50px"></div>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+
+    <footer class="tm">
+      <div class="clear"></div>
+      <div class="">
+        <p>
+          © Copyright 2004-2024 - George Barcos - All Rights Reserved.
+          Unauthorized reproduction of materials on this website is prohibited.
+        </p>
+      </div>
+      <div class="clear"></div>
+    </footer>
+
+    <div class="clear" style="height: 40px"></div>
+  </body>
+</html>
